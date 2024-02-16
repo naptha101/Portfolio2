@@ -1,6 +1,6 @@
 import React from 'react';
 import { IoIosArrowDropright } from "react-icons/io";
-import o from "../Assets/Photo.png"
+import o from "../MyImage2.png"
 import { Link } from 'react-scroll';
 const Home = () => {
   return (
@@ -8,9 +8,9 @@ const Home = () => {
 <div className="flex md:px-36 flex-col md:flex-row justify-center items-center w-full h-full">
 
     <div className='text-white flex flex-col '>
-        <h1 className='text-4xl lg:text-7xl text-blue-300 '>I am a Computer Science Engineer</h1>
+        <h1 className='text-4xl lg:text-7xl text-amber-400'>Hello I'm Yash Verma..</h1>
         <p className="text-gray-300 text-1xl max-w-md">
-        Hello I'm Yash Verma, a relentless dreamer fueled by a B.Tech in Computer Science  I speak the languages of the future: Java, HTML, CSS, JavaScript, Kotlin, and CPP. I craft intuitive user experiences and solve complex puzzles
+        Driven and enthusiastic Computer Science Engineer with a passion for innovation and problem-solving. I bring a strong foundation in computer science principles along with practical experience in software development and engineering. I thrive in dynamic environments where I can apply my technical skills to create meaningful solutions.
         </p>
         <div >
             <Link to="portfolio" smooth duration={500}>
@@ -24,8 +24,8 @@ const Home = () => {
         </div>
 
     </div>
-    <div className='ms-2 flex flex-col items-center justify-center  h-full w-1/2' >
-    <img src={o} className=" md:w-full md:h-[60%]  " style={{borderRadius:"50px" }} alt="Description" />
+    <div className='ms-2 flex flex-col items-center justify-center' >
+    <img src={o} className="w-[57vw] h-[80vh]" style={{borderRadius:"40px" }} alt="Description" />
 
     </div>
   

@@ -20,18 +20,18 @@ const Portfolio = () => {
     <div name="portfolio" className="bg-gradient-to-b from-black to-slate-600 w-full md:full text-gray-300">
         <div className="max-w-screen-lg p-4 mx-auto flec flex-col justify-center w-full h-full">
 <div className='pb-8'>
-<p className='text-4xl border-blue-300 border-b-4 capitalize w-fit  text-blue-300'>Portfolio</p>
+<p className='text-4xl text-amber-400 font-bold capitalize w-fit '>Portfolio</p>
 <p className='text-xl text-white'>Check Out Some Of My Work Right Here</p>
 </div>
 <div className='grid md:grid-cols-3 sm:grid-cols-2 px-12 sm:px-2'>
     {portfolios.map(({id,src,lin,title})=>{
      
-    return <div key={id} className='flex my-2 flex-col p-3 items-center justify-between shadow-md shadow-gray-500 rounded-lg mx-2'>
-<img alt="Project" className=" rounded-md hover:scale-105 duration-500 w-60 h-48" src={src}></img>
+    return <div key={id} className='flex my-2 flex-col p-3  items-center justify-between shadow-md shadow-amber-400 rounded-lg mx-2'>
+<img alt="Project" className="border-1 border-amber-400 rounded-md hover:scale-105 duration-500 w-60 h-48" src={src}></img>
 
 <div className='flex gap-4 flex-col p-2  items-center'>
-<p className='text-center text-bold text-xl'>{title}</p>
-<a href={lin} rel="noreferrer" className="text-white" target='_blank'><button className=' shadow-md shadow-gray-500 px-4 h-full hover:scale-105 duration-300 rounded-md'>Details</button></a> 
+<p className='text-center text-bold text-2xl'>{title}</p>
+<a href={lin} rel="noreferrer" className="text-white" target='_blank'><button className=' shadow-md shadow-amber-500 px-4 h-full hover:scale-105 duration-300 rounded-md'>Details</button></a> 
 </div>
 </div>
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { IoMailOpenOutline } from "react-icons/io5";
-
+import { IoDocumentTextSharp } from "react-icons/io5";
 const Social = () => {
   return (
     <div className="hidden lg:flex top-[35%] left-[-120px] fixed">
@@ -38,11 +38,11 @@ const Social = () => {
         </li>
         <li className='flex justify-between items-center w-fit rounded-ee-md h-14 px-2 ms-[-8px] bg-gray-600 text-white hover:ms-[80px] duration-100 ease-out'>
           <a  download={true}
-          href='/' target="_blank" rel="noreferrer">
+          href='https://drive.google.com/file/d/1xOz8g5oXqoEcfvlizGInSjX6wd-S5Bcg/view?usp=sharing' target="_blank" rel="noreferrer">
             
             <div className='flex flex-row'>
             <h4 className='mt-2 text-white no-underline'>Resume</h4>
-            <FaLinkedin className="mt-2 " style={{color:'white'}} size={35}></FaLinkedin>
+            <IoDocumentTextSharp className="mt-2 " style={{color:'white'}} size={35}></IoDocumentTextSharp>
               
               
             </div>

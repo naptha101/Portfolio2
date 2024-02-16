@@ -87,8 +87,8 @@ const Experience = () => {
     <div name="Experience" className="flex flex-col bg-gradient-to-b from-slate-600 to-black w-full h-fit py-7">
 <div className='flex flex-col max-w-screen-lg mx-auto p-4 w-full h-full justify-center text-gray-300'>
     <div className='flex flex-col p-3'>
-        <p className='text-4xl w-fit border-b-4  text-blue-300'>Experience</p>
-        <p className='text-xl w-fit '>Here is my Tech-Stack</p>
+        <p className='text-4xl w-fit text-amber-400'>Experience</p>
+        <p className='text-xl w-fit text-white'>My tech experiences</p>
     </div>
 
 
